@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+<style>
+
+body {
+  margin: 0;
+}
+
+img, div {
+  width: 100px;
+  height: 100px;
+}
+
+.x {
+  -webkit-animation: x 13s linear infinite alternate;
+          animation: x 13s linear infinite alternate;
+}
+
+.y {
+  -webkit-animation: y 7s linear infinite alternate;
+          animation: y 7s linear infinite alternate;
+}
+
+@-webkit-keyframes x {
+  100% {
+    transform: translateX(calc(100vw - 100px));
+  }
+}
+
+@keyframes x {
+  100% {
+    transform: translateX(calc(100vw - 100px));
+  }
+}
+@-webkit-keyframes y {
+  100% {
+    transform: translateY(calc(100vh - 100px));
+  }
+}
+@keyframes y {
+  100% {
+    transform: translateY(calc(100vh - 100px));
+  }
+}
+</style>
+
+
+<body>
+<div class="x">
+  <img class="y" src="./Skrat avatar.jpg" />
+</div>
+
+</body>
+</html>
